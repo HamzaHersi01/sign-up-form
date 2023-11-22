@@ -86,17 +86,17 @@ fieldset input{
 fieldset span{
     position: absolute;
     left: 0;
+    padding: 20px;
     
 }
 
 fieldset .last,.number,.confirm{
     position: absolute;
     top: 65px;
+
 }
 
-fieldset .number{
-overflow: hidden;
-}
+
 
 form {
     width: 100%;
@@ -110,9 +110,6 @@ label {
     margin-right: 8px;
 }
 
-.number {
-    margin-left: 40px;
-}
 
 hr {
     margin: 8px;
