@@ -46,11 +46,22 @@ p{
     margin-top: 60px;
 }
 
+input{
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+}
+
+
 .button{
-    width: 175px;
+    color: white;
+    width: 250px;
     height: 75px;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 900;
     margin-left: 60px;
     background:var(--background);
 }
@@ -58,7 +69,12 @@ p{
 fieldset{
     border: none;
     margin: 60px;
+    width: 100%;
 }
+fieldset label{
+    
+}
+
 
 form{
     width: 100%;
