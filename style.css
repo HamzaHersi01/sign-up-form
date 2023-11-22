@@ -87,7 +87,8 @@ fieldset span{
     position: absolute;
     left: 0;
     padding: 20px;
-    
+    pointer-events: none;
+    text-transform: uppercase;
 }
 
 fieldset .last,.number,.confirm{
@@ -95,6 +96,7 @@ fieldset .last,.number,.confirm{
     top: 65px;
 
 }
+
 
 
 
